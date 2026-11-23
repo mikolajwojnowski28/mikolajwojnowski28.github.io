@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pl" data-lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mikołaj Wojnowski</title>
+<meta name="description" content="Mikołaj Wojnowski: aerodynamika, symulacje, narzędzia i gry. Aerodynamics, simulations, tools and games.">
+<meta property="og:title" content="Mikołaj Wojnowski">
+<meta property="og:description" content="Aerodynamika, symulacje, narzędzia i gry.">
+<meta name="theme-color" content="#1f3dff">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%231f3dff'/%3E%3Cpath d='M5 21c6-9 13-9 22-4' stroke='%23ffe45c' stroke-width='3' fill='none' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Instrument+Sans:wght@400..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css?v=11">
+</head>
+<body>
+<a class="skip" href="#work"><span lang="pl">Przejdź do projektów</span><span lang="en">Skip to work</span></a>
+
+<nav class="nav">
+  <div class="nav-links">
+    <a href="#work"><span lang="pl">Projekty</span><span lang="en">Work</span></a>
+    <a href="#road"><span lang="pl">Droga</span><span lang="en">Path</span></a>
+    <a href="#contact"><span lang="pl">Kontakt</span><span lang="en">Contact</span></a>
+    <button id="lang" class="lang" aria-label="English / Polski">EN</button>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <canvas id="field" role="img" aria-label="Mikołaj Wojnowski"></canvas>
+  <h1 class="sr">Mikołaj Wojnowski</h1>
+  <img class="hero-me" src="img/ja.jpg" alt="Mikołaj Wojnowski">
+  <p class="hero-sub"><span lang="pl">Inżynier od powietrza, symulacji i narzędzi.</span><span lang="en">An engineer of air, simulations and tools.</span></p>
+</header>
+
+<section class="say" data-reveal>
+  <p lang="pl"><span class="line"><span>Lubię moment, w którym</span></span><span class="line"><span>godzina ręcznej pracy</span></span><span class="line"><span>zamienia się w minutę.</span></span></p>
+  <p lang="en"><span class="line"><span>I love the moment when</span></span><span class="line"><span>an hour of manual work</span></span><span class="line"><span>turns into a minute.</span></span></p>
+</section>
+
+<figure class="photo-race" data-reveal>
+  <img src="img/zespol.jpg" alt="Zespół PUT Motorsport z bolidem PM10 na zawodach Formula Student Poland" loading="lazy">
+  <figcaption>Formula Student Poland, fot. @m_wisniewskiart</figcaption>
+</figure>
+
+<section class="about" data-reveal>
+  <figure class="me"><img src="img/zawody.jpg" alt="Mikołaj Wojnowski w bolidzie PM10" loading="lazy"><figcaption>fot. @limaxson</figcaption></figure>
+  <div class="about-text">
+    <p lang="pl">Studiuję mechanikę i budowę pojazdów na Politechnice Poznańskiej. Od października 2023 roku jestem aerodynamikiem w PUT Motorsport, zespole Formuły Student. Od października 2025 jestem też liderem działu aerodynamiki oraz kierowcą. Największą satysfakcję daje mi usprawnianie i upraszczanie pracy, usuwanie wąskich gardeł i testowanie nowych rozwiązań.</p>
+    <p lang="en">I study automotive engineering at Poznań University of Technology. Since October 2023 I have been an aerodynamicist at PUT Motorsport, our Formula Student team. Since October 2025 I have also been the head of the aero department and a driver. What I enjoy most is improving and simplifying work, removing bottlenecks and testing new solutions.</p>
+    <dl class="nums">
+      <div><dt>20 → 0 min</dt><dd lang="pl">ręczne przygotowanie geometrii do obliczeń</dd><dd lang="en">manual geometry prep for a simulation</dd></div>
+      <div><dt>8 → 4 h</dt><dd lang="pl">jedna iteracja obliczeń przepływu</dd><dd lang="en">one airflow simulation loop</dd></div>
+      <div><dt>+45%</dt><dd lang="pl">docisku w obecnym pakiecie aerodynamicznym, nadal rośnie</dd><dd lang="en">downforce in the current aero package, still rising</dd></div>
+      <div><dt>6 → 50</dt><dd lang="pl">symulacji w 2 tygodnie, od kiedy liczy Hub</dd><dd lang="en">simulations per 2 weeks since Hub took over</dd></div>
+    </dl>
+    <div class="highlights">
+      <h3><span lang="pl">Z ostatniego sezonu</span><span lang="en">From the last season</span></h3>
+      <ul>
+        <li lang="pl">Przeprowadziłem zespół z modelu k-ε z funkcjami ściany na k-ω SST z rozwiązaną warstwą przyścienną (y+ w okolicach 1). Szukałem dobrego stosunku czasu obliczeń do dokładności i jak najmniejszej liczby błędów automatu. To temat mojej pracy inżynierskiej.</li>
+        <li lang="en">I moved the team's CFD from k-ε with wall functions to k-ω SST with a resolved boundary layer (y+ around 1). I aimed for a good balance of run time and accuracy, with as few automation failures as possible. It is the subject of my thesis.</li>
+        <li lang="pl">Prezentowałem nasz pakiet aerodynamiczny w konkurencji Engineering Design na Formula Student Poland 2026.</li>
+        <li lang="en">I presented our aero package at the Engineering Design event, Formula Student Poland 2026.</li>
+        <li lang="pl">Jechałem autocross i endurance na Formula Student Poland 2026.</li>
+        <li lang="en">I drove autocross and endurance at Formula Student Poland 2026.</li>
+      </ul>
+    </div>  </div>
+</section>
+<section class="stack" id="work" aria-label="Projekty / Work"></section>
+
+<section class="more" data-reveal>
+  <h2><span lang="pl">Mniejsze rzeczy</span><span lang="en">Smaller things</span></h2>
+  <ul id="more"></ul>
+</section>
+
+<section class="tools" data-reveal>
+  <h2><span lang="pl">W czym pracuję</span><span lang="en">What I work with</span></h2>
+  <div class="cols">
+    <div class="col"><h3>CFD</h3><ul>
+      <li>Ansys Fluent</li><li>Ansys Meshing</li><li>SpaceClaim</li><li>CFD-Post</li>
+      <li lang="pl">Modelowanie turbulencji</li><li lang="en">Turbulence modelling</li>
+      <li lang="pl">Strategia siatki</li><li lang="en">Meshing strategy</li></ul></div>
+    <div class="col"><h3>CAD</h3><ul>
+      <li>SolidWorks</li><li lang="pl">SolidWorks Simulation (MES)</li><li lang="en">SolidWorks Simulation (FEA)</li><li>Autodesk Inventor</li><li>AutoCAD</li>
+      <li>CATIA V5</li></ul></div>
+    <div class="col"><h3><span lang="pl">Narzędzia</span><span lang="en">Tools</span></h3><ul>
+      <li>Claude Code</li><li>MoTeC i2</li><li lang="pl">Blender (modele torów i aut)</li><li lang="en">Blender (track and car models)</li><li>GitHub</li><li>MS Office</li></ul></div>
+    <div class="col"><h3><span lang="pl">Języki</span><span lang="en">Languages</span></h3><ul>
+      <li lang="pl">Polski, ojczysty</li><li lang="en">Polish, native</li>
+      <li lang="pl">Angielski, C1</li><li lang="en">English, C1</li>
+      <li lang="pl">Niemiecki, A2</li><li lang="en">German, A2</li></ul></div>
+  </div>
+  <h3 class="sub"><span lang="pl">Z czego zbudowane są moje projekty</span><span lang="en">What my projects are built with</span></h3>
+  <div class="cols three">
+    <div class="col"><h3>PUTM Aero Hub</h3><ul>
+      <li>Python, FastAPI</li><li>PostgreSQL</li><li>React, Three.js</li><li>Docker</li>
+      <li lang="pl">Skrypty SpaceClaim i Fluent</li><li lang="en">SpaceClaim and Fluent scripting</li>
+      <li lang="pl">Logowanie kontem Google</li><li lang="en">Google sign-in</li></ul></div>
+    <div class="col"><h3>PUTM Sim</h3><ul>
+      <li>Rust</li><li lang="pl">Bevy (silnik gry)</li><li lang="en">Bevy (game engine)</li><li>egui</li>
+      <li lang="pl">Model opony Pacejki</li><li lang="en">Pacejka tyre model</li>
+      <li lang="pl">Telemetria MoTeC</li><li lang="en">MoTeC telemetry</li></ul></div>
+    <div class="col"><h3>PUTM Aero Viewer</h3><ul>
+      <li>Python</li><li>VTK, PyVista</li><li>Qt (PySide6)</li><li>Matplotlib</li>
+      <li lang="pl">Eksport do Excela</li><li lang="en">Excel export</li></ul></div>
+  </div>
+</section>
+
+<section class="road" id="road">
+  <h2><span lang="pl">Droga</span><span lang="en">The path so far</span></h2>
+  <ol>
+    <li><i>2023</i><b><span lang="pl">Politechnika Poznańska</span><span lang="en">Poznań University of Technology</span></b><span lang="pl">Mechanika i budowa pojazdów</span><span lang="en">Automotive engineering</span></li>
+    <li><i><span lang="pl">październik 2023</span><span lang="en">October 2023</span></i><b>PUT Motorsport</b><span lang="pl">Aerodynamik w zespole Formuły Student</span><span lang="en">Aerodynamicist in a Formula Student team</span></li>
+    <li><i><span lang="pl">październik 2025</span><span lang="en">October 2025</span></i><b><span lang="pl">Lider aerodynamiki</span><span lang="en">Head of aerodynamics</span></b><span lang="pl">Zespół 10 osób, kierowca bolidu</span><span lang="en">A team of 10, race car driver</span></li>
+    <li><i><span lang="pl">lipiec–wrzesień 2026</span><span lang="en">July–September 2026</span></i><b>Ikano Industry</b><span lang="pl">Staż inżynierski. Analiza „make or buy” palet stalowych z modelem i MES w SolidWorks. Koncepcja maszyny oddzielającej włókninę od sprężyn kieszeniowych. Panele osłon maszyn z rysunkami wykonawczymi i montaż linii klejenia na hali.</span><span lang="en">Engineering intern. Make-or-buy study for steel pallets with a SolidWorks model and FEA. Concept for a machine separating non-woven fabric from pocket springs. Machine guarding panels with manufacturing drawings and gluing line installation on the shop floor.</span></li>
+    <li class="now"><i><span lang="pl">teraz</span><span lang="en">now</span></i><b><span lang="pl">Praca inżynierska</span><span lang="en">Engineering thesis</span></b><span lang="pl">Wpływ modelu turbulencji k-ω SST na dokładność wyznaczania charakterystyk aerodynamicznych pojazdu klasy Formuła Student</span><span lang="en">Influence of the k-ω SST turbulence model on the accuracy of aerodynamic characteristics of a Formula Student car</span></li>
+  </ol>
+</section>
+
+<footer class="end" id="contact">
+  <h2 class="sr"><span lang="pl">Kontakt</span><span lang="en">Contact</span></h2>
+  <canvas id="field-contact" aria-hidden="true"></canvas>
+  <div class="links">
+    <a href="mailto:mwojnowski03@gmail.com">E-mail</a>
+    <a href="https://www.linkedin.com/in/miko%C5%82aj-wojnowski-4abb29302/" target="_blank" rel="noopener">LinkedIn</a>
+  </div>
+  <p class="small">© 2026 Mikołaj Wojnowski</p>
+</footer>
+
+<div class="panel" id="panel" role="dialog" aria-modal="true" aria-labelledby="panel-title" hidden>
+  <div class="panel-in" id="panel-in"></div>
+</div>
+
+<script src="main.js?v=11"></script>
+</body>
+</html>
